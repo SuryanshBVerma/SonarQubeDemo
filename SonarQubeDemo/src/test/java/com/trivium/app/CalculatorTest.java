@@ -30,10 +30,10 @@ class CalculatorTest {
 		assertEquals(2, result);
 	}
 	
-//	@Test
-//	void testMul() {
-//		Calculator calculator = new Calculator();
-//		int result = calculator.mul(5, 3);
-//		assertEquals(15, result);
-//	}
+	@Test
+	void testMul() {
+		Calculator calculator = new Calculator();
+		int result = calculator.mul(5, 3);
+		assertEquals(15, result);
+	}
 }
